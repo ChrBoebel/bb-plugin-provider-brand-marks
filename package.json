@@ -1,0 +1,30 @@
+{
+  "name": "bb-plugin-provider-brand-marks",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Draw bb's provider logos in their own brand colours, tuned to whichever palette is active.",
+  "license": "MIT",
+  "engines": {
+    "bb": ">=0.41",
+    "bbPluginSdk": ">=0.4.34"
+  },
+  "bb": {
+    "name": "Provider Brand Marks",
+    "description": "Draws each provider logo in its own brand colour — Anthropic clay, OpenAI green, Pi steel blue, Hermes ultramarine — tuned in OKLCH to whichever palette is active, in both light and dark mode.",
+    "branding": {
+      "icon": "./icon.svg"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx"
+  },
+  "scripts": {
+    "build": "bb plugin build",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.4.34",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
