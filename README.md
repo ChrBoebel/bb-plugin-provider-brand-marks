@@ -12,7 +12,7 @@ the marks adapt to it.
 ## Install
 
 ```sh
-bb plugin install git:https://github.com/USER/bb-plugin-provider-brand-marks.git@^0.1.0
+bb plugin install git:https://github.com/ChrBoebel/bb-plugin-provider-brand-marks.git@^0.1.0
 ```
 
 ## How the colours are chosen
