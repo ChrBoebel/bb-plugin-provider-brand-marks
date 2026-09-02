@@ -38,10 +38,11 @@ oklch(from var(--pbm-brand-codex) var(--pbm-lightness)
 | Codex | `#10A37F` | OpenAI green — their palette is otherwise black and white |
 | Pi | `#6A9FCC` | `--accent` in the stylesheet on [pi.dev](https://pi.dev) |
 | Hermes Agent | `#0000F2` | `theme-color` / `bg-hermes` on [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com) |
-| opencode | `#B8C425` | the chartreuse accent on [opencode.ai](https://opencode.ai) |
+| opencode | `#B8C425` | **weakly sourced** — approximated from the chartreuse interactive token on [opencode.ai](https://opencode.ai); their docs site otherwise uses a generic template blue. Corrections welcome. |
 | Cursor | — | deliberately monochrome; tracks your palette's `--foreground` |
 
-Providers not in that table are left exactly as bb draws them.
+Providers not in that table are left exactly as bb draws them. Every colour except
+opencode's comes from a value the vendor publishes; see the note in that row.
 
 ## Overriding anything
 
