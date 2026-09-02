@@ -1,4 +1,7 @@
-# Provider Brand Marks
+# True Colors
+
+*Plugin id `provider-brand-marks` — that is what `bb plugin list` and the
+install command use.*
 
 bb draws every provider logo as a monochrome mask that follows your theme, so
 Codex, Claude Code, Pi and Hermes all end up the same colour. This plugin gives

@@ -17,7 +17,7 @@
     "bbPluginSdk": ">=0.4.34"
   },
   "bb": {
-    "name": "Provider Brand Marks",
+    "name": "True Colors",
     "description": "Draws each provider logo in its own brand colour — Anthropic clay, OpenAI green, Pi steel blue, Hermes ultramarine — tuned in OKLCH to whichever palette is active, in both light and dark mode.",
     "branding": {
       "icon": "./icon.svg"
