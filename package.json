@@ -1,6 +1,6 @@
 {
   "name": "bb-plugin-provider-brand-marks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Draw bb's provider logos in their own brand colours, tuned to whichever palette is active.",
   "license": "MIT",
