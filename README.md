@@ -92,6 +92,10 @@ bb plugin install .
 bb plugin dev      # rebuild + reload on save
 ```
 
+`npm run build` shells out to `bb plugin build`, so it needs the `bb` CLI on
+your `PATH`. You do not need it to *use* the plugin — bb builds git and path
+installs itself.
+
 ## License
 
 MIT

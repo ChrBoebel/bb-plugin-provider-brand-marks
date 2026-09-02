@@ -4,6 +4,14 @@
   "type": "module",
   "description": "Draw bb's provider logos in their own brand colours, tuned to whichever palette is active.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrBoebel/bb-plugin-provider-brand-marks.git"
+  },
+  "homepage": "https://github.com/ChrBoebel/bb-plugin-provider-brand-marks#readme",
+  "bugs": {
+    "url": "https://github.com/ChrBoebel/bb-plugin-provider-brand-marks/issues"
+  },
   "engines": {
     "bb": ">=0.41",
     "bbPluginSdk": ">=0.4.34"
