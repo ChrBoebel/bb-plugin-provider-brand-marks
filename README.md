@@ -14,6 +14,10 @@ the marks adapt to it.
 
 ## Install
 
+Find **True Colors** under **Extensions** in bb and install it from the Community marketplace.
+
+Or install from GitHub:
+
 ```sh
 bb plugin install git:https://github.com/ChrBoebel/bb-plugin-provider-brand-marks.git@^0.1.0
 ```
@@ -99,6 +103,13 @@ bb plugin dev      # rebuild + reload on save
 `npm run build` shells out to `bb plugin build`, so it needs the `bb` CLI on
 your `PATH`. You do not need it to *use* the plugin — bb builds git and path
 installs itself.
+
+## Feedback
+
+Tried this plugin? Share what worked and what got in the way using the
+[feedback form](https://github.com/ChrBoebel/bb-plugin-provider-brand-marks/issues/new?template=feedback.yml).
+Include your bb version, plugin version and operating system if known.
+Feedback is voluntary and public; omit private project paths, transcripts and credentials.
 
 ## License
 
